@@ -1,0 +1,43 @@
+.main-cont {
+  border: 1px solid rgb(234, 233, 233);
+
+  width: 350px;
+  height: 500px;
+  -webkit-box-shadow: -1px -1px 18px -3px rgba(145, 69, 145, 0.56);
+  -moz-box-shadow: -1px -1px 18px -3px rgba(145, 69, 145, 0.56);
+  box-shadow: -1px -1px 18px -3px rgba(200, 157, 200, 0.56);
+  border-radius: 10px;
+}
+.input-1 {
+  width: 85%;
+  border: none;
+  height: 50px;
+  margin: 20px;
+  font-size: 30px;
+  direction: ltr;
+}
+.input-1:active:focus-visible {
+  border: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.btn-number {
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  margin: 10px;
+  background-color: transparent;
+  font-family: cursive;
+  cursor: "pointer";
+  color: saddlebrown;
+}
+.value-input {
+  width: 50%;
+  border: none;
+  height: 50px;
+  margin: 20px;
+  font-size: 30px;
+}
